@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://techfacts.dev/sitemap.xml
+Sitemap: https://fredsazy/sitemap.xml
