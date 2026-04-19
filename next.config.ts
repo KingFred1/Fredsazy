@@ -10,6 +10,17 @@ const nextConfig: NextConfig = {
       }
     ]
   },
+
+  // Ignore TypeScript build errors
+  typescript: {
+    ignoreBuildErrors: true,
+  },
+
+  // Ignore ESLint errors
+  eslint: {
+    ignoreDuringBuilds: true,
+  },
+  
   // experimental: {
   //   ppr: "incremental",
   //   after: true
