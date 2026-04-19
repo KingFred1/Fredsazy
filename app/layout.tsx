@@ -1,3 +1,4 @@
+// app/layout.tsx
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
@@ -37,11 +38,6 @@ const workSans = localFont({
       style: "normal",
     },
     {
-      path: "./fonts/WorkSans-Black.ttf",
-      weight: "900",
-      style: "normal",
-    },
-    {
       path: "./fonts/WorkSans-Thin.ttf",
       weight: "200",
       style: "normal",
@@ -57,31 +53,55 @@ const workSans = localFont({
 
 export const metadata: Metadata = {
   title: {
-    default: "techfacts - Practical Tech Insights",
-    template: "%s | techfacts",
+    default: "Fredsazy - Software Development, DevOps & Tech Insights",
+    template: "%s | Fredsazy",
   },
-  description: "A personal tech blog for modern engineers, builders, and product thinkers. Deep analysis, practical engineering insights, and product strategy.",
-  keywords: ["tech blog", "software engineering", "product strategy", "developer tools", "architecture"],
-  authors: [{ name: "techfacts" }],
-  creator: "techfacts",
-  publisher: "techfacts",
-  icons: {
-    icon: "/favicon.ico",
-    apple: "/apple-touch-icon.png",
+  description: "Software development, DevOps, and technology insights by Iria Fredrick Victor (Fredsazy). Practical engineering guides, code tutorials, and tech strategy for modern builders.",
+  keywords: [
+    "software development",
+    "DevOps",
+    "programming",
+    "tech blog",
+    "engineering",
+    "Next.js",
+    "React",
+    "cloud computing",
+    "developer tools",
+    "tech insights"
+  ],
+  authors: [{ name: "Iria Fredrick Victor (Fredsazy)", url: "https://fredsazy.com/about" }],
+  creator: "Iria Fredrick Victor (Fredsazy)",
+  publisher: "Fredsazy",
+  metadataBase: new URL("https://fredsazy.com"),
+  alternates: {
+    canonical: "/",
+    types: {
+      "application/rss+xml": "/feed.xml",
+    },
   },
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://techfacts.dev",
-    title: "techfacts - Practical Tech Insights",
-    description: "A personal tech blog for modern engineers, builders, and product thinkers.",
-    siteName: "techfacts",
+    url: "https://fredsazy.com",
+    title: "Fredsazy - Software Development, DevOps & Tech Insights",
+    description: "Practical engineering guides, code tutorials, and tech strategy for modern builders.",
+    siteName: "Fredsazy",
+    images: [
+      {
+        url: "/og-image.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Fredsazy - Tech Insights by Iria Fredrick Victor",
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "techfacts - Practical Tech Insights",
-    description: "A personal tech blog for modern engineers, builders, and product thinkers.",
-    creator: "@techfacts",
+    title: "Fredsazy - Software Development, Business startups, DevOps & Tech Insights",
+    description: "Practical engineering guides, code tutorials, and tech strategy.",
+    creator: "@fredsazy",
+    site: "@fredsazy",
+    images: ["/og-image.jpg"],
   },
   robots: {
     index: true,
@@ -94,6 +114,42 @@ export const metadata: Metadata = {
       "max-snippet": -1,
     },
   },
+  verification: {
+    google: process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION,
+    // Add other verification codes as needed
+  },
+  category: "technology",
+  classification: "Technology Blog",
+  referrer: "origin-when-cross-origin",
+  formatDetection: {
+    email: false,
+    address: false,
+    telephone: false,
+  },
+  appleWebApp: {
+    capable: true,
+    title: "Fredsazy",
+    statusBarStyle: "black-translucent",
+  },
+  applicationName: "Fredsazy",
+  generator: "Next.js",
+  manifest: "/site.webmanifest",
+  icons: {
+    icon: [
+      { url: "/favicon.ico", sizes: "any" },
+      { url: "/icon-192.png", type: "image/png", sizes: "192x192" },
+      { url: "/icon-512.png", type: "image/png", sizes: "512x512" },
+    ],
+    apple: [
+      { url: "/apple-touch-icon.png", sizes: "180x180", type: "image/png" },
+    ],
+    shortcut: ["/favicon.ico"],
+  },
+  other: {
+    "google-adsense-account": process.env.NEXT_PUBLIC_GOOGLE_ADSENSE_ID,
+    "msapplication-TileColor": "#0f172a",
+    "theme-color": "#0f172a",
+  },
 };
 
 export default function RootLayout({
@@ -102,10 +158,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body
-        className={workSans.variable}
-      >
+    <html lang="en" className={workSans.variable}>
+      <body>
         <SessionProvider>
           {children}
         </SessionProvider>
