@@ -52,6 +52,9 @@ const workSans = localFont({
   variable: "--font-work-sans",
 });
 
+const GA_TRACKING_ID = process.env.NEXT_PUBLIC_GA_ID || "";
+
+
 export const metadata: Metadata = {
   title: {
     default: "Fredsazy - Software Development, DevOps & Tech Insights",
@@ -171,28 +174,30 @@ export default function RootLayout({
     <html lang="en" className={workSans.variable}>
       <head>
         {/* Google Analytics */}
-        <>
-          <Script
-            strategy="afterInteractive"
-            src="https://www.googletagmanager.com/gtag/js?id=G-ZXQ805VF72"
-          />
-          <Script
-            id="google-analytics"
-            strategy="afterInteractive"
-            dangerouslySetInnerHTML={{
-              __html: `
-        try {
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-          gtag('config', 'G-ZXQ805VF72');
-        } catch (e) {
-          console.warn('Google Analytics init failed:', e);
-        }
-      `,
-            }}
-          />
-        </>
+        {GA_TRACKING_ID && (
+          <>
+            <Script
+              strategy="afterInteractive"
+              src={`https://www.googletagmanager.com/gtag/js?id=${GA_TRACKING_ID}`}
+            />
+            <Script
+              id="google-analytics"
+              strategy="afterInteractive"
+              dangerouslySetInnerHTML={{
+                __html: `
+                  try {
+                    window.dataLayer = window.dataLayer || [];
+                    function gtag(){dataLayer.push(arguments);}
+                    gtag('js', new Date());
+                    gtag('config', '${GA_TRACKING_ID}');
+                  } catch (e) {
+                    console.warn('gtag init failed', e);
+                  }
+                `,
+              }}
+            />
+          </>
+        )}
       </head>
       <body>
         <SessionProvider>{children}</SessionProvider>

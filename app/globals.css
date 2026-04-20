@@ -148,7 +148,7 @@
   }
 
   .hero_title {
-    @apply mt-8 text-3xl font-medium md:font-extrabold leading-tight tracking-[-0.025em] text-slate-950 sm:text-6xl;
+    @apply mt-8 text-4xl font-medium md:font-extrabold leading-tight tracking-[-0.025em] text-slate-950 sm:text-6xl;
   }
 
   .hero_copy {
