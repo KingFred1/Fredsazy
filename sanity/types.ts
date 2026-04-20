@@ -78,7 +78,9 @@ export type Author = {
   _rev: string;
   id?: number;
   name?: string;
-  mainImage?: {
+  username?: string;
+  email?: string;
+  image?: {
     asset?: {
       _ref: string;
       _type: "reference";
@@ -90,8 +92,6 @@ export type Author = {
     crop?: SanityImageCrop;
     _type: "image";
   };
-  email?: string;
-  image?: string;
   bio?: string;
 };
 

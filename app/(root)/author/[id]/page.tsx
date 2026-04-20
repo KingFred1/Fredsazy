@@ -5,13 +5,22 @@ import { AUTHOR_BY_ID_QUERY, STARTUPS_BY_AUTHOR_QUERY } from "@/sanity/lib/queri
 import { urlFor } from "@/sanity/lib/image";
 import StartupCard, { StartupTypeCard } from "@/components/StartupCard";
 
-export default async function AuthorPage({ params }: { params: { id: string } }) {
-  const { id } = params;
+// Next.js 16: params is a Promise
+export default async function AuthorPage({ 
+  params 
+}: { 
+  params: Promise<{ id: string }> 
+}) {
+  // Await params first to get the actual data
+  const { id } = await params;
+
+  // Now pass the resolved 'id' to your Sanity queries
   const author = await client.fetch(AUTHOR_BY_ID_QUERY, { id });
 
   if (!author) return notFound();
 
   const posts = await client.fetch(STARTUPS_BY_AUTHOR_QUERY, { id });
+
 
   return (
     <main className="section_container py-20">

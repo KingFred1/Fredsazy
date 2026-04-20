@@ -143,7 +143,7 @@ export default async function Home({ searchParams }: {
           <div>
             <ul className="grid gap-4 md:grid-cols-2 xl:grid-cols-3">
               {posts?.length > 0 ? (
-                posts.map((post: StartupTypeCard) => (
+                posts.slice(1, 1000).map((post: StartupTypeCard) => (
                   <StartupCard key={post?._id} post={post} />
                 ))
               ) : (

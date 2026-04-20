@@ -360,7 +360,21 @@
         },
         "optional": true
       },
-      "mainImage": {
+      "username": {
+        "type": "objectAttribute",
+        "value": {
+          "type": "string"
+        },
+        "optional": true
+      },
+      "email": {
+        "type": "objectAttribute",
+        "value": {
+          "type": "string"
+        },
+        "optional": true
+      },
+      "image": {
         "type": "objectAttribute",
         "value": {
           "type": "object",
@@ -426,20 +440,6 @@
               }
             }
           }
-        },
-        "optional": true
-      },
-      "email": {
-        "type": "objectAttribute",
-        "value": {
-          "type": "string"
-        },
-        "optional": true
-      },
-      "image": {
-        "type": "objectAttribute",
-        "value": {
-          "type": "string"
         },
         "optional": true
       },

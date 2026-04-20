@@ -276,11 +276,11 @@ const page = async ({ params }: { params: Promise<{ slug: string | string[] }> }
               </span>
               <span className="text-slate-300">•</span>
               <div className="flex items-center gap-1">
-                <EyeIcon className="size-4" />
+                {/* <EyeIcon className="size-4" /> */}
                 <Suspense fallback={<span>...</span>}>
                   <View id={post._id} />
                 </Suspense>
-                <span>views</span>
+                {/* <span>views</span> */}
               </div>
               <span className="rounded-full bg-slate-100 px-3 py-1 text-sm font-medium text-slate-700">
                 {post.category}
@@ -348,7 +348,7 @@ const page = async ({ params }: { params: Promise<{ slug: string | string[] }> }
                 <h3 className="font-semibold text-slate-950">
                   {post.author?.name || "Iria Fredrick Victor (Fredsazy)"}
                 </h3>
-                <p className="text-sm text-slate-500 mb-2">
+                <p className="text-sm text-slate-500 mb-2 line-clamp-3">
                   {post.author?.bio || "Software developer, DevOps engineer, and entrepreneur. Building technology and documenting everything."}
                 </p>
                 <div className="flex gap-3">
