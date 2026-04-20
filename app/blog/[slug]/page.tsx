@@ -264,7 +264,7 @@ const page = async ({ params }: { params: Promise<{ slug: string | string[] }> }
               <ShareButtons url={postUrl} title={post.title} />
             </div>
             
-            <h1 className="text-4xl font-extrabold tracking-tight text-slate-950 sm:text-5xl">
+            <h1 className="text-2xl  md:font-extrabold font-bold tracking-tight text-slate-950 sm:text-5xl">
               {post.title}
             </h1>
             

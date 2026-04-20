@@ -70,7 +70,7 @@
   }
 
   .text-30-bold {
-    @apply text-[30px] font-bold text-black;
+    @apply md:text-[30px] text-xl font-semibold md:font-bold text-black;
   }
 
   .text-30-semibold {
@@ -148,7 +148,7 @@
   }
 
   .hero_title {
-    @apply mt-8 text-5xl font-extrabold leading-tight tracking-[-0.025em] text-slate-950 sm:text-6xl;
+    @apply mt-8 text-3xl font-medium md:font-extrabold leading-tight tracking-[-0.025em] text-slate-950 sm:text-6xl;
   }
 
   .hero_copy {
@@ -156,7 +156,7 @@
   }
 
   .hero_card {
-    @apply relative overflow-hidden rounded-3xl border border-slate-200 bg-white p-8 shadow-xl;
+    @apply relative overflow-hidden rounded-3xl border border-slate-200 bg-white p-5 md:p-8 shadow-xl;
   }
 
   .hero_card_content {
@@ -252,7 +252,7 @@
   }
 
   .search-input {
-    @apply flex-1 bg-transparent font-bold placeholder:font-semibold placeholder:text-slate-400 text-slate-950 w-full h-auto outline-none;
+    @apply flex-1 bg-transparent md:font-bold md:placeholder:font-semibold placeholder:text-slate-400 text-slate-950 w-full h-auto outline-none;
   }
 
   .search-btn {
