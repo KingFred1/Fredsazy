@@ -25,7 +25,7 @@ const Navbar = () => {
     <header className="sticky top-0 z-50 border-b border-slate-200 bg-white/95 backdrop-blur-xl">
       <div className="mx-auto flex max-w-7xl items-center justify-between md:px-10 px-4 py-4">
         <Link href="/" className="text-xl font-bold tracking-tight text-slate-950">
-          techfacts
+          Fredsazy
         </Link>
 
         <nav className="hidden items-center gap-8 md:flex">

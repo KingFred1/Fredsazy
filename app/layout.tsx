@@ -2,8 +2,9 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
-import 'easymde/dist/easymde.min.css'
+import "easymde/dist/easymde.min.css";
 import { SessionProvider } from "next-auth/react";
+import Script from "next/script";
 
 const workSans = localFont({
   src: [
@@ -56,7 +57,8 @@ export const metadata: Metadata = {
     default: "Fredsazy - Software Development, DevOps & Tech Insights",
     template: "%s | Fredsazy",
   },
-  description: "Software development, DevOps, and technology insights by Iria Fredrick Victor (Fredsazy). Practical engineering guides, code tutorials, and tech strategy for modern builders.",
+  description:
+    "Software development, DevOps, and technology insights by Iria Fredrick Victor (Fredsazy). Practical engineering guides, code tutorials, and tech strategy for modern builders.",
   keywords: [
     "software development",
     "DevOps",
@@ -67,9 +69,14 @@ export const metadata: Metadata = {
     "React",
     "cloud computing",
     "developer tools",
-    "tech insights"
+    "tech insights",
   ],
-  authors: [{ name: "Iria Fredrick Victor (Fredsazy)", url: "https://fredsazy.com/about" }],
+  authors: [
+    {
+      name: "Iria Fredrick Victor (Fredsazy)",
+      url: "https://fredsazy.com/about",
+    },
+  ],
   creator: "Iria Fredrick Victor (Fredsazy)",
   publisher: "Fredsazy",
   metadataBase: new URL("https://fredsazy.com"),
@@ -84,7 +91,8 @@ export const metadata: Metadata = {
     locale: "en_US",
     url: "https://fredsazy.com",
     title: "Fredsazy - Software Development, DevOps & Tech Insights",
-    description: "Practical engineering guides, code tutorials, and tech strategy for modern builders.",
+    description:
+      "Practical engineering guides, code tutorials, and tech strategy for modern builders.",
     siteName: "Fredsazy",
     images: [
       {
@@ -97,8 +105,10 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Fredsazy - Software Development, Business startups, DevOps & Tech Insights",
-    description: "Practical engineering guides, code tutorials, and tech strategy.",
+    title:
+      "Fredsazy - Software Development, Business startups, DevOps & Tech Insights",
+    description:
+      "Practical engineering guides, code tutorials, and tech strategy.",
     creator: "@fredsazy",
     site: "@fredsazy",
     images: ["/og-image.jpg"],
@@ -159,10 +169,33 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={workSans.variable}>
+      <head>
+        {/* Google Analytics */}
+        <>
+          <Script
+            strategy="afterInteractive"
+            src="https://www.googletagmanager.com/gtag/js?id=G-ZXQ805VF72"
+          />
+          <Script
+            id="google-analytics"
+            strategy="afterInteractive"
+            dangerouslySetInnerHTML={{
+              __html: `
+        try {
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-ZXQ805VF72');
+        } catch (e) {
+          console.warn('Google Analytics init failed:', e);
+        }
+      `,
+            }}
+          />
+        </>
+      </head>
       <body>
-        <SessionProvider>
-          {children}
-        </SessionProvider>
+        <SessionProvider>{children}</SessionProvider>
       </body>
     </html>
   );
