@@ -1,0 +1,152 @@
+[2026-04-21T21:04:06.619Z] 🚀 Starting bulk indexing for fredsazy.com...
+[2026-04-21T21:04:06.621Z] 📌 Base URL:
+[2026-04-21T21:04:06.621Z] 📌 API Endpoint:
+[2026-04-21T21:04:06.621Z] 
+🔑 Checking IndexNow key file accessibility...
+[2026-04-21T21:04:10.667Z] ✅ Key file accessible: https://fredsazy.com/85978d9336e94e40991c5dc9252f5ddc.txt
+[2026-04-21T21:04:10.675Z] 🔍 Testing API endpoint connectivity...
+[2026-04-21T21:04:11.392Z] 
+📡 Fetching all posts from Sanity...
+[2026-04-21T21:15:53.356Z] 🚀 Starting bulk indexing for fredsazy.com...
+[2026-04-21T21:15:53.358Z] 📌 Base URL:
+[2026-04-21T21:15:53.358Z] 📌 IndexNow Key:
+[2026-04-21T21:15:53.358Z] 
+🔑 Checking IndexNow key file accessibility...
+[2026-04-21T21:16:00.156Z] ✅ Key file accessible: https://fredsazy.com/85978d9336e94e40991c5dc9252f5ddc.txt
+[2026-04-21T21:16:00.157Z] 
+📡 Fetching all posts from Sanity...
+[2026-04-21T21:16:26.601Z] 🚀 Starting bulk indexing for fredsazy.com...
+[2026-04-21T21:16:26.602Z] 📌 Base URL:
+[2026-04-21T21:16:26.602Z] 📌 IndexNow Key:
+[2026-04-21T21:16:26.603Z] 
+🔑 Checking IndexNow key file accessibility...
+[2026-04-21T21:16:30.321Z] ✅ Key file accessible: https://fredsazy.com/85978d9336e94e40991c5dc9252f5ddc.txt
+[2026-04-21T21:16:30.323Z] 
+📡 Fetching all posts from Sanity...
+[2026-04-21T21:18:17.854Z] 🚀 Starting bulk indexing for fredsazy.com...
+[2026-04-21T21:18:17.856Z] 📌 Base URL:
+[2026-04-21T21:18:17.856Z] 📌 IndexNow Key:
+[2026-04-21T21:18:17.856Z] 
+🔑 Checking IndexNow key file accessibility...
+[2026-04-21T21:18:21.564Z] ✅ Key file accessible: https://fredsazy.com/85978d9336e94e40991c5dc9252f5ddc.txt
+[2026-04-21T21:18:21.584Z] 
+📡 Fetching all posts from Sanity...
+[2026-04-21T21:21:11.832Z] 🚀 Starting bulk indexing for fredsazy.com...
+[2026-04-21T21:21:11.836Z] 📌 Base URL:
+[2026-04-21T21:21:11.836Z] 📌 IndexNow Key:
+[2026-04-21T21:21:11.837Z] 
+🔑 Checking IndexNow key file accessibility...
+[2026-04-21T21:21:19.960Z] ✅ Key file accessible: https://fredsazy.com/85978d9336e94e40991c5dc9252f5ddc.txt
+[2026-04-21T21:21:19.961Z] 
+📡 Fetching all posts from Sanity...
+[2026-04-21T21:21:19.962Z] 📝 Query: *[_type == "post" && defined(slug.current) && defined(publishedAt) && publishedAt <= now()]{
+      _id,
+      title,
+      "slug": slug.current,
+      publishedAt,
+      _type
+    } | order(publishedAt desc)
+[2026-04-21T21:22:55.272Z] 🚀 Starting bulk indexing for fredsazy.com...
+[2026-04-21T21:22:55.274Z] 📌 Base URL:
+[2026-04-21T21:22:55.274Z] 📌 IndexNow Key:
+[2026-04-21T21:22:55.274Z] 
+🔑 Checking IndexNow key file accessibility...
+[2026-04-21T21:22:57.262Z] ✅ Key file accessible: https://fredsazy.com/85978d9336e94e40991c5dc9252f5ddc.txt
+[2026-04-21T21:22:57.265Z] 
+📡 Fetching all posts from Sanity...
+[2026-04-21T21:22:57.268Z] 📝 Query: *[_type == "post" && defined(slug.current) && defined(publishedAt) && publishedAt <= now()]{
+      _id,
+      title,
+      "slug": slug.current,
+      publishedAt,
+      _type
+    } | order(publishedAt desc)
+[2026-04-21T21:22:59.975Z] 📝 Found 0 total posts
+[2026-04-21T21:22:59.976Z] ❌ No posts found.
+[2026-04-21T21:25:10.214Z] 🚀 Starting bulk indexing for fredsazy.com...
+[2026-04-21T21:25:10.218Z] 📌 Base URL:
+[2026-04-21T21:25:10.218Z] 📌 IndexNow Key:
+[2026-04-21T21:25:10.219Z] 
+🔑 Checking IndexNow key file accessibility...
+[2026-04-21T21:25:11.986Z] ✅ Key file accessible: https://fredsazy.com/85978d9336e94e40991c5dc9252f5ddc.txt
+[2026-04-21T21:25:11.987Z] 
+📡 Fetching all posts from Sanity...
+[2026-04-21T21:25:11.989Z] 📝 Query: *[_type == "post" && slug.current == $slug][0]{
+  _id,
+  title,
+  slug,
+  _createdAt,
+}
+[2026-04-21T21:26:07.147Z] 🚀 Starting bulk indexing for fredsazy.com...
+[2026-04-21T21:26:07.149Z] 📌 Base URL:
+[2026-04-21T21:26:07.149Z] 📌 IndexNow Key:
+[2026-04-21T21:26:07.150Z] 
+🔑 Checking IndexNow key file accessibility...
+[2026-04-21T21:26:10.706Z] ✅ Key file accessible: https://fredsazy.com/85978d9336e94e40991c5dc9252f5ddc.txt
+[2026-04-21T21:26:10.708Z] 
+📡 Fetching all posts from Sanity...
+[2026-04-21T21:26:10.713Z] 📝 Query: *[_type == "post" && slug.current == $slug][0]{
+  _id,
+  title,
+  slug,
+  _createdAt,
+} | order(_createdAt desc)
+[2026-04-21T21:26:58.904Z] 🚀 Starting bulk indexing for fredsazy.com...
+[2026-04-21T21:26:58.905Z] 📌 Base URL:
+[2026-04-21T21:26:58.905Z] 📌 IndexNow Key:
+[2026-04-21T21:26:58.905Z] 
+🔑 Checking IndexNow key file accessibility...
+[2026-04-21T21:27:03.120Z] ✅ Key file accessible: https://fredsazy.com/85978d9336e94e40991c5dc9252f5ddc.txt
+[2026-04-21T21:27:03.123Z] 
+📡 Fetching all posts from Sanity...
+[2026-04-21T21:27:03.126Z] 📝 Query: *[_type == "post" && slug.current == $slug][0]{
+  _id,
+  title,
+  slug,
+  _createdAt,
+} | order(publishedAt desc)
+[2026-04-21T21:31:33.776Z] 🚀 Starting bulk indexing for fredsazy.com...
+[2026-04-21T21:31:33.777Z] 
+🔑 Checking IndexNow key file...
+[2026-04-21T21:31:36.201Z] ✅ Key file accessible: https://fredsazy.com/85978d9336e94e40991c5dc9252f5ddc.txt
+[2026-04-21T21:31:36.203Z] 
+📡 Fetching all posts from Sanity...
+[2026-04-21T21:31:38.936Z] 📝 Found 0 total posts
+[2026-04-21T21:31:38.937Z] ❌ No posts found.
+[2026-04-21T21:32:06.655Z] 🚀 Starting bulk indexing for fredsazy.com...
+[2026-04-21T21:32:06.656Z] 
+🔑 Checking IndexNow key file...
+[2026-04-21T21:32:10.688Z] ✅ Key file accessible: https://fredsazy.com/85978d9336e94e40991c5dc9252f5ddc.txt
+[2026-04-21T21:32:10.693Z] 
+📡 Fetching all posts from Sanity...
+[2026-04-21T21:32:12.243Z] 📝 Found 8 total posts
+[2026-04-21T21:32:12.244Z] 📋 Sample of first 5 posts:
+[2026-04-21T21:32:12.244Z]    1. How Hyper-Personalized Products Are Killing Mass Market -> https://fredsazy.com/blog/how-hyper-personalized-products-are-killing-mass-market
+[2026-04-21T21:32:12.244Z]    2. Lines of Code Are Back (And It's Worse Than Before) -> https://fredsazy.com/blog/lines-of-code-are-back-and-it-s-worse-than-before
+[2026-04-21T21:32:12.244Z]    3. What I Wish I Knew Before Starting My Tech Business (6 Hard Lessons) -> https://fredsazy.com/blog/what-i-wish-i-knew-before-starting-my-tech-business-6-hard-lessons
+[2026-04-21T21:32:12.244Z]    4. The End of Screen Time KPI: Why Usage Metrics Are Dying in AI Applications -> https://fredsazy.com/blog/the-end-of-screen-time-kpi-why-usage-metrics-are-dying-in-ai-applications
+[2026-04-21T21:32:12.245Z]    5. AI Doesn't Reduce Work—It Intensifies It: The Hidden Cost of Agent-Assisted Coding -> https://fredsazy.com/blog/ai-doesn-t-reduce-work-it-intensifies-it-the-hidden-cost-of-agent-assisted-coding
+[2026-04-21T21:32:12.245Z]    🌐 Submitting to IndexNow: https://fredsazy.com/blog/how-hyper-personalized-products-are-killing-mass-market
+[2026-04-21T21:32:16.549Z]    ✅ Success (4304ms) via api.indexnow.org/indexnow
+[2026-04-21T21:32:17.075Z]    🌐 Submitting to IndexNow: https://fredsazy.com/blog/lines-of-code-are-back-and-it-s-worse-than-before
+[2026-04-21T21:32:22.614Z]    ✅ Success (5539ms) via api.indexnow.org/indexnow
+[2026-04-21T21:32:23.121Z]    🌐 Submitting to IndexNow: https://fredsazy.com/blog/what-i-wish-i-knew-before-starting-my-tech-business-6-hard-lessons
+[2026-04-21T21:32:23.906Z]    ✅ Success (785ms) via api.indexnow.org/indexnow
+[2026-04-21T21:32:24.411Z]    🌐 Submitting to IndexNow: https://fredsazy.com/blog/the-end-of-screen-time-kpi-why-usage-metrics-are-dying-in-ai-applications
+[2026-04-21T21:32:26.067Z]    ✅ Success (1656ms) via api.indexnow.org/indexnow
+[2026-04-21T21:32:26.586Z]    🌐 Submitting to IndexNow: https://fredsazy.com/blog/ai-doesn-t-reduce-work-it-intensifies-it-the-hidden-cost-of-agent-assisted-coding
+[2026-04-21T21:32:27.387Z]    ✅ Success (801ms) via api.indexnow.org/indexnow
+[2026-04-21T21:32:27.891Z]    🌐 Submitting to IndexNow: https://fredsazy.com/blog/why-70-of-self-built-agentic-ai-projects-will-fail-by-2028
+[2026-04-21T21:32:28.753Z]    ✅ Success (862ms) via api.indexnow.org/indexnow
+[2026-04-21T21:32:29.265Z]    🌐 Submitting to IndexNow: https://fredsazy.com/blog/the-new-architectural-layer-nobody-s-talking-about
+[2026-04-21T21:32:30.047Z]    ✅ Success (782ms) via api.indexnow.org/indexnow
+[2026-04-21T21:32:30.561Z]    🌐 Submitting to IndexNow: https://fredsazy.com/blog/why-your-ai-agent-pipelines-will-fail-without-declarative-dsls
+[2026-04-21T21:32:31.363Z]    ✅ Success (802ms) via api.indexnow.org/indexnow
+[2026-04-21T21:32:31.364Z] 
+============================================================
+[2026-04-21T21:32:31.365Z] 🎉 BULK INDEXING COMPLETED!
+[2026-04-21T21:32:31.365Z] ============================================================
+[2026-04-21T21:32:31.367Z] ⏱️ Total time: 0.3 minutes
+[2026-04-21T21:32:31.368Z] ✅ Successful: 8
+[2026-04-21T21:32:31.368Z] ❌ Failed: 0
+[2026-04-21T21:32:31.369Z] 📊 Total processed: 8

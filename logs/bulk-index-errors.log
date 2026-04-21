@@ -1,0 +1,215 @@
+[2026-04-21T21:04:11.390Z] ❌ API returned status 404
+[2026-04-21T21:04:13.357Z] 
+💥 Bulk indexing failed:
+[2026-04-21T21:16:04.875Z] 
+💥 Bulk indexing failed:
+[2026-04-21T21:16:35.930Z] 
+💥 Bulk indexing failed:
+[2026-04-21T21:18:23.447Z] 
+💥 Bulk indexing failed:
+[2026-04-21T21:21:23.360Z] 
+💥 Bulk indexing failed:
+[2026-04-21T21:21:23.362Z]    Error message: Unauthorized - Session does not match project host
+[2026-04-21T21:21:23.363Z]    Error details: {
+  "response": {
+    "body": {
+      "error": "Unauthorized",
+      "message": "Session does not match project host",
+      "statusCode": 401,
+      "errorCode": "SIO-401-AWH"
+    },
+    "url": "https://78gw77n7.api.sanity.io/v2024-01-01/data/query/production?query=*%5B_type+%3D%3D+%22post%22+%26%26+defined%28slug.current%29+%26%26+defined%28publishedAt%29+%26%26+publishedAt+%3C%3D+now%28%29%5D%7B%0A++++++_id%2C%0A++++++title%2C%0A++++++%22slug%22%3A+slug.current%2C%0A++++++publishedAt%2C%0A++++++_type%0A++++%7D+%7C+order%28publishedAt+desc%29&returnQuery=false",
+    "method": "GET",
+    "headers": {
+      "date": "Tue, 21 Apr 2026 21:21:25 GMT",
+      "content-type": "application/json; charset=utf-8",
+      "x-sanity-error-code": "SIO-401-AWH",
+      "content-length": "115",
+      "vary": "origin",
+      "sanity-gateway": "k8s-gcp-eu-w1-prod-ing-01",
+      "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+      "xkey": "project-78gw77n7",
+      "via": "1.1 google",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+    },
+    "statusCode": 401,
+    "statusMessage": "Unauthorized",
+    "remoteAddress": "34.111.181.219"
+  },
+  "statusCode": 401,
+  "responseBody": "{\n  \"error\": \"Unauthorized\",\n  \"message\": \"Session does not match project host\",\n  \"statusCode\": 401,\n  \"errorCode\": \"SIO-401-AWH\"\n}"
+}
+[2026-04-21T21:25:13.851Z] 
+💥 Bulk indexing failed:
+[2026-04-21T21:25:13.852Z]    Error message: GROQ query parse error:
+> 1 | *[_type == "post" && slug.current == $slug][0]{
+    |                                     ^^^^ param $slug referenced, but not provided
+  2 |   _id,
+  3 |   title,
+  4 |   slug,
+[2026-04-21T21:25:13.852Z]    Error details: {
+  "response": {
+    "body": {
+      "error": {
+        "description": "param $slug referenced, but not provided",
+        "end": 41,
+        "query": "*[_type == \"post\" && slug.current == $slug][0]{\n  _id,\n  title,\n  slug,\n  _createdAt,\n}",
+        "start": 37,
+        "type": "queryParseError"
+      }
+    },
+    "url": "https://kt8oqcrg.api.sanity.io/v2024-01-01/data/query/production?query=*%5B_type+%3D%3D+%22post%22+%26%26+slug.current+%3D%3D+%24slug%5D%5B0%5D%7B%0A++_id%2C%0A++title%2C%0A++slug%2C%0A++_createdAt%2C%0A%7D&returnQuery=false",
+    "method": "GET",
+    "headers": {
+      "content-type": "application/json; charset=utf-8",
+      "ratelimit-reset": "1",
+      "x-ratelimit-remaining-second": "499",
+      "x-ratelimit-limit-second": "500",
+      "ratelimit-limit": "500",
+      "ratelimit-remaining": "499",
+      "sanity-inflight-current": "0",
+      "sanity-inflight-limit": "500",
+      "sanity-query-class": "normal",
+      "server-timing": "api;dur=10",
+      "vary": "Accept-Encoding, origin",
+      "x-sanity-shard": "gcp-eu-w1-prod-40009",
+      "x-served-by": "gradient-query-6dfdbcdc85-xnvp6",
+      "date": "Tue, 21 Apr 2026 21:25:15 GMT",
+      "traceparent": "00-d9fdf9ef35a9103509a9882e28e917b7-1d64595a406f0435-01",
+      "sanity-gateway": "k8s-gcp-as-s1-prod-ing-01",
+      "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+      "xkey": "project-kt8oqcrg, project-kt8oqcrg-production",
+      "via": "1.1 google",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    },
+    "statusCode": 400,
+    "statusMessage": "Bad Request",
+    "remoteAddress": "34.117.95.95"
+  },
+  "statusCode": 400,
+  "responseBody": "{\n  \"error\": {\n    \"description\": \"param $slug referenced, but not provided\",\n    \"end\": 41,\n    \"query\": \"*[_type == \\\"post\\\" && slug.current == $slug][0]{\\n  _id,\\n  title,\\n  slug,\\n  _createdAt,\\n}\",\n    \"start\": 37,\n    \"type\": \"queryParseError\"\n  }\n}",
+  "details": {
+    "description": "param $slug referenced, but not provided",
+    "end": 41,
+    "query": "*[_type == \"post\" && slug.current == $slug][0]{\n  _id,\n  title,\n  slug,\n  _createdAt,\n}",
+    "start": 37,
+    "type": "queryParseError"
+  }
+}
+[2026-04-21T21:26:13.166Z] 
+💥 Bulk indexing failed:
+[2026-04-21T21:26:13.167Z]    Error message: GROQ query parse error:
+> 1 | *[_type == "post" && slug.current == $slug][0]{
+    |                                     ^^^^ param $slug referenced, but not provided
+  2 |   _id,
+  3 |   title,
+  4 |   slug,
+[2026-04-21T21:26:13.168Z]    Error details: {
+  "response": {
+    "body": {
+      "error": {
+        "description": "param $slug referenced, but not provided",
+        "end": 41,
+        "query": "*[_type == \"post\" && slug.current == $slug][0]{\n  _id,\n  title,\n  slug,\n  _createdAt,\n} | order(_createdAt desc)",
+        "start": 37,
+        "type": "queryParseError"
+      }
+    },
+    "url": "https://kt8oqcrg.api.sanity.io/v2024-01-01/data/query/production?query=*%5B_type+%3D%3D+%22post%22+%26%26+slug.current+%3D%3D+%24slug%5D%5B0%5D%7B%0A++_id%2C%0A++title%2C%0A++slug%2C%0A++_createdAt%2C%0A%7D+%7C+order%28_createdAt+desc%29&returnQuery=false",
+    "method": "GET",
+    "headers": {
+      "content-type": "application/json; charset=utf-8",
+      "x-ratelimit-remaining-second": "499",
+      "x-ratelimit-limit-second": "500",
+      "ratelimit-limit": "500",
+      "ratelimit-remaining": "499",
+      "ratelimit-reset": "1",
+      "sanity-inflight-limit": "500",
+      "sanity-inflight-current": "0",
+      "sanity-query-class": "normal",
+      "server-timing": "api;dur=10",
+      "vary": "Accept-Encoding, origin",
+      "x-sanity-shard": "gcp-eu-w1-prod-40009",
+      "x-served-by": "gradient-query-6dfdbcdc85-mw74n",
+      "date": "Tue, 21 Apr 2026 21:26:14 GMT",
+      "traceparent": "00-b926ad26f46d780f5f08cdb5c4105f1f-21a1eccf3eb16714-01",
+      "sanity-gateway": "k8s-gcp-as-s1-prod-ing-01",
+      "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+      "xkey": "project-kt8oqcrg, project-kt8oqcrg-production",
+      "via": "1.1 google",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    },
+    "statusCode": 400,
+    "statusMessage": "Bad Request",
+    "remoteAddress": "34.117.95.95"
+  },
+  "statusCode": 400,
+  "responseBody": "{\n  \"error\": {\n    \"description\": \"param $slug referenced, but not provided\",\n    \"end\": 41,\n    \"query\": \"*[_type == \\\"post\\\" && slug.current == $slug][0]{\\n  _id,\\n  title,\\n  slug,\\n  _createdAt,\\n} | order(_createdAt desc)\",\n    \"start\": 37,\n    \"type\": \"queryParseError\"\n  }\n}",
+  "details": {
+    "description": "param $slug referenced, but not provided",
+    "end": 41,
+    "query": "*[_type == \"post\" && slug.current == $slug][0]{\n  _id,\n  title,\n  slug,\n  _createdAt,\n} | order(_createdAt desc)",
+    "start": 37,
+    "type": "queryParseError"
+  }
+}
+[2026-04-21T21:27:05.239Z] 
+💥 Bulk indexing failed:
+[2026-04-21T21:27:05.240Z]    Error message: GROQ query parse error:
+> 1 | *[_type == "post" && slug.current == $slug][0]{
+    |                                     ^^^^ param $slug referenced, but not provided
+  2 |   _id,
+  3 |   title,
+  4 |   slug,
+[2026-04-21T21:27:05.241Z]    Error details: {
+  "response": {
+    "body": {
+      "error": {
+        "description": "param $slug referenced, but not provided",
+        "end": 41,
+        "query": "*[_type == \"post\" && slug.current == $slug][0]{\n  _id,\n  title,\n  slug,\n  _createdAt,\n} | order(publishedAt desc)",
+        "start": 37,
+        "type": "queryParseError"
+      }
+    },
+    "url": "https://kt8oqcrg.api.sanity.io/v2024-01-01/data/query/production?query=*%5B_type+%3D%3D+%22post%22+%26%26+slug.current+%3D%3D+%24slug%5D%5B0%5D%7B%0A++_id%2C%0A++title%2C%0A++slug%2C%0A++_createdAt%2C%0A%7D+%7C+order%28publishedAt+desc%29&returnQuery=false",
+    "method": "GET",
+    "headers": {
+      "content-type": "application/json; charset=utf-8",
+      "x-ratelimit-remaining-second": "499",
+      "x-ratelimit-limit-second": "500",
+      "ratelimit-limit": "500",
+      "ratelimit-remaining": "499",
+      "ratelimit-reset": "1",
+      "sanity-inflight-current": "0",
+      "sanity-inflight-limit": "500",
+      "sanity-query-class": "normal",
+      "server-timing": "api;dur=8",
+      "vary": "Accept-Encoding, origin",
+      "x-sanity-shard": "gcp-eu-w1-prod-40009",
+      "x-served-by": "gradient-query-6dfdbcdc85-mpkpd",
+      "date": "Tue, 21 Apr 2026 21:27:07 GMT",
+      "traceparent": "00-2cc0f33976eb056ecf107f0520000a76-c158c53600de9966-01",
+      "sanity-gateway": "k8s-gcp-as-s1-prod-ing-01",
+      "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+      "xkey": "project-kt8oqcrg, project-kt8oqcrg-production",
+      "via": "1.1 google",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    },
+    "statusCode": 400,
+    "statusMessage": "Bad Request",
+    "remoteAddress": "34.117.95.95"
+  },
+  "statusCode": 400,
+  "responseBody": "{\n  \"error\": {\n    \"description\": \"param $slug referenced, but not provided\",\n    \"end\": 41,\n    \"query\": \"*[_type == \\\"post\\\" && slug.current == $slug][0]{\\n  _id,\\n  title,\\n  slug,\\n  _createdAt,\\n} | order(publishedAt desc)\",\n    \"start\": 37,\n    \"type\": \"queryParseError\"\n  }\n}",
+  "details": {
+    "description": "param $slug referenced, but not provided",
+    "end": 41,
+    "query": "*[_type == \"post\" && slug.current == $slug][0]{\n  _id,\n  title,\n  slug,\n  _createdAt,\n} | order(publishedAt desc)",
+    "start": 37,
+    "type": "queryParseError"
+  }
+}

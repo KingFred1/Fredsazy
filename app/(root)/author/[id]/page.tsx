@@ -56,7 +56,7 @@ export default async function AuthorPage({
           </div>
           <ul className="mt-8 grid gap-6 md:grid-cols-2 xl:grid-cols-3">
             {posts?.length ? (
-              posts.map((post: StartupTypeCard) => (
+              posts.slice(0, 3).map((post: StartupTypeCard) => (
                 <StartupCard key={post._id} post={post} />
               ))
             ) : (
