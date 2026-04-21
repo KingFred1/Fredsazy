@@ -2,7 +2,8 @@
 import { client } from "@/sanity/lib/client";
 import { MetadataRoute } from 'next'
 
-// Use your existing query pattern - fetch only what you need for sitemap
+export const dynamic = 'force-dynamic'
+
 const ALL_POSTS_FOR_SITEMAP = `*[_type == "post" && defined(slug.current)] {
   "slug": slug.current,
   _updatedAt,
@@ -33,12 +34,6 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
         lastModified: new Date(),
         changeFrequency: 'daily' as const,
         priority: 1.0,
-      },
-      {
-        url: `${baseUrl}/blog`,
-        lastModified: new Date(),
-        changeFrequency: 'daily' as const,
-        priority: 0.9,
       },
       {
         url: `${baseUrl}/about`,
