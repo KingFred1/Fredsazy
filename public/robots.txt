@@ -3,8 +3,5 @@ Allow: /
 Disallow: /studio/
 Disallow: /api/
 Disallow: /admin/
-Disallow: /private/
-Disallow: /_next/
-Disallow: /_vercel/
 
-Sitemap: https://fredsazy/sitemap.xml
+Sitemap: https://fredsazy.com/sitemap.xml   
