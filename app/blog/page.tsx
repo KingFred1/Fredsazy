@@ -1,7 +1,7 @@
 import { redirect } from "next/navigation";
 
 export default function BlogGhostPage() {
-  // We don't want users actually landing here if the home page is the star
+  
   // This redirect is for users, while the Metadata is for bots
   redirect("/"); 
 }
