@@ -213,3 +213,8 @@
     "type": "queryParseError"
   }
 }
+[2026-04-28T21:30:12.073Z] ❌ Cannot access key file: fetch failed
+[2026-04-28T21:30:12.094Z] 
+💥 Bulk indexing failed:
+[2026-04-28T21:30:12.094Z]    getaddrinfo ENOTFOUND kt8oqcrg.api.sanity.io
+[2026-05-12T10:04:28.637Z] ❌ Cannot access key file: fetch failed

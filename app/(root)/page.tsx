@@ -30,7 +30,7 @@ export default async function Home({ searchParams }: {
             {/* <span className="hero_badge">techfacts</span> */}
             <h1 className="hero_title">Deep tech analysis, practical engineering insights, and product strategy.</h1>
             <p className="hero_copy">
-              A personal tech blog for modern engineers, builders, and product thinkers who want sharper, faster learning.
+              A personal tech blog for modern engineers, builders, and product thinkers who want sharper, faster learning and latest tech updates.
             </p>
             <SearchForm query={query} category={category} />
 

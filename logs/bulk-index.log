@@ -150,3 +150,313 @@
 [2026-04-21T21:32:31.368Z] ✅ Successful: 8
 [2026-04-21T21:32:31.368Z] ❌ Failed: 0
 [2026-04-21T21:32:31.369Z] 📊 Total processed: 8
+[2026-04-25T11:49:20.942Z] 🚀 Starting bulk indexing for fredsazy.com...
+[2026-04-25T11:49:20.944Z] 
+🔑 Checking IndexNow key file...
+[2026-04-25T11:49:23.180Z] ✅ Key file accessible: https://fredsazy.com/85978d9336e94e40991c5dc9252f5ddc.txt
+[2026-04-25T11:49:23.188Z] 
+📡 Fetching all posts from Sanity...
+[2026-04-25T11:49:24.091Z] 📝 Found 10 total posts
+[2026-04-25T11:49:24.092Z] 📋 Sample of first 5 posts:
+[2026-04-25T11:49:24.093Z]    1. DevOps-Gym: The First Benchmark That Proves AI Agents Fail at Real Infrastructure Tasks -> https://fredsazy.com/blog/devops-gym-the-first-benchmark-that-proves-ai-agents-fail-at-real-infrastructure-tasks
+[2026-04-25T11:49:24.094Z]    2. The 3,600x Efficiency Gap: Why AI Outperforms Humans at Security Testing (But Fails at Configuration) -> https://fredsazy.com/blog/the-3-600x-efficiency-gap-why-ai-outperforms-humans-at-security-testing-but-fails-at-configuration
+[2026-04-25T11:49:24.094Z]    3. How Hyper-Personalized Products Are Killing Mass Market -> https://fredsazy.com/blog/how-hyper-personalized-products-are-killing-mass-market
+[2026-04-25T11:49:24.095Z]    4. Lines of Code Are Back (And It's Worse Than Before) -> https://fredsazy.com/blog/lines-of-code-are-back-and-it-s-worse-than-before
+[2026-04-25T11:49:24.096Z]    5. What I Wish I Knew Before Starting My Tech Business (6 Hard Lessons) -> https://fredsazy.com/blog/what-i-wish-i-knew-before-starting-my-tech-business-6-hard-lessons
+[2026-04-25T11:49:24.098Z]    🌐 Submitting to IndexNow: https://fredsazy.com/blog/devops-gym-the-first-benchmark-that-proves-ai-agents-fail-at-real-infrastructure-tasks
+[2026-04-25T11:49:27.080Z]    ✅ Success (2982ms) via api.indexnow.org/indexnow
+[2026-04-25T11:49:27.586Z]    🌐 Submitting to IndexNow: https://fredsazy.com/blog/the-3-600x-efficiency-gap-why-ai-outperforms-humans-at-security-testing-but-fails-at-configuration
+[2026-04-25T11:49:28.444Z]    ✅ Success (858ms) via api.indexnow.org/indexnow
+[2026-04-25T11:49:28.953Z]    🌐 Submitting to IndexNow: https://fredsazy.com/blog/how-hyper-personalized-products-are-killing-mass-market
+[2026-04-25T11:49:29.757Z]    ✅ Success (804ms) via api.indexnow.org/indexnow
+[2026-04-25T11:49:30.269Z]    🌐 Submitting to IndexNow: https://fredsazy.com/blog/lines-of-code-are-back-and-it-s-worse-than-before
+[2026-04-25T11:49:31.262Z]    ✅ Success (993ms) via api.indexnow.org/indexnow
+[2026-04-25T11:49:31.769Z]    🌐 Submitting to IndexNow: https://fredsazy.com/blog/what-i-wish-i-knew-before-starting-my-tech-business-6-hard-lessons
+[2026-04-25T11:49:32.695Z]    ✅ Success (926ms) via api.indexnow.org/indexnow
+[2026-04-25T11:49:33.205Z]    🌐 Submitting to IndexNow: https://fredsazy.com/blog/the-end-of-screen-time-kpi-why-usage-metrics-are-dying-in-ai-applications
+[2026-04-25T11:49:34.087Z]    ✅ Success (882ms) via api.indexnow.org/indexnow
+[2026-04-25T11:49:34.595Z]    🌐 Submitting to IndexNow: https://fredsazy.com/blog/ai-doesn-t-reduce-work-it-intensifies-it-the-hidden-cost-of-agent-assisted-coding
+[2026-04-25T11:49:36.075Z]    ✅ Success (1480ms) via api.indexnow.org/indexnow
+[2026-04-25T11:49:36.588Z]    🌐 Submitting to IndexNow: https://fredsazy.com/blog/why-70-of-self-built-agentic-ai-projects-will-fail-by-2028
+[2026-04-25T11:49:37.450Z]    ✅ Success (863ms) via api.indexnow.org/indexnow
+[2026-04-25T11:49:37.957Z]    🌐 Submitting to IndexNow: https://fredsazy.com/blog/the-new-architectural-layer-nobody-s-talking-about
+[2026-04-25T11:49:38.818Z]    ✅ Success (861ms) via api.indexnow.org/indexnow
+[2026-04-25T11:49:39.324Z]    🌐 Submitting to IndexNow: https://fredsazy.com/blog/why-your-ai-agent-pipelines-will-fail-without-declarative-dsls
+[2026-04-25T11:49:40.273Z]    ✅ Success (949ms) via api.indexnow.org/indexnow
+[2026-04-25T11:49:40.274Z] 
+============================================================
+[2026-04-25T11:49:40.274Z] 🎉 BULK INDEXING COMPLETED!
+[2026-04-25T11:49:40.274Z] ============================================================
+[2026-04-25T11:49:40.275Z] ⏱️ Total time: 0.3 minutes
+[2026-04-25T11:49:40.276Z] ✅ Successful: 10
+[2026-04-25T11:49:40.277Z] ❌ Failed: 0
+[2026-04-25T11:49:40.278Z] 📊 Total processed: 10
+[2026-04-26T09:22:57.614Z] 🚀 Starting bulk indexing for fredsazy.com...
+[2026-04-26T09:22:57.615Z] 
+🔑 Checking IndexNow key file...
+[2026-04-26T09:22:59.522Z] ✅ Key file accessible: https://fredsazy.com/85978d9336e94e40991c5dc9252f5ddc.txt
+[2026-04-26T09:22:59.524Z] 
+📡 Fetching all posts from Sanity...
+[2026-04-26T09:23:00.982Z] 📝 Found 13 total posts
+[2026-04-26T09:23:00.984Z] 📋 Sample of first 5 posts:
+[2026-04-26T09:23:00.985Z]    1. AGI Isn't Coming—Agentic AI Is Here. The Difference Changes Everything -> https://fredsazy.com/blog/agi-isn-t-coming-agentic-ai-is-here-the-difference-changes-everything
+[2026-04-26T09:23:00.986Z]    2. The Self-Healing Pipeline: 73% of Enterprises Now Use AIOps to Beat Alert Fatigue -> https://fredsazy.com/blog/the-self-healing-pipeline-73-of-enterprises-now-use-aiops-to-beat-alert-fatigue
+[2026-04-26T09:23:00.987Z]    3. How "Vibe Coding" Is Reshaping Software Engineering -> https://fredsazy.com/blog/how-vibe-coding-is-reshaping-software-engineering
+[2026-04-26T09:23:00.989Z]    4. DevOps-Gym: The First Benchmark That Proves AI Agents Fail at Real Infrastructure Tasks -> https://fredsazy.com/blog/devops-gym-the-first-benchmark-that-proves-ai-agents-fail-at-real-infrastructure-tasks
+[2026-04-26T09:23:00.990Z]    5. The 3,600x Efficiency Gap: Why AI Outperforms Humans at Security Testing (But Fails at Configuration) -> https://fredsazy.com/blog/the-3-600x-efficiency-gap-why-ai-outperforms-humans-at-security-testing-but-fails-at-configuration
+[2026-04-26T09:23:00.994Z]    🌐 Submitting to IndexNow: https://fredsazy.com/blog/agi-isn-t-coming-agentic-ai-is-here-the-difference-changes-everything
+[2026-04-26T09:23:02.893Z]    ✅ Success (1899ms) via api.indexnow.org/indexnow
+[2026-04-26T09:23:03.403Z]    🌐 Submitting to IndexNow: https://fredsazy.com/blog/the-self-healing-pipeline-73-of-enterprises-now-use-aiops-to-beat-alert-fatigue
+[2026-04-26T09:23:04.292Z]    ✅ Success (889ms) via api.indexnow.org/indexnow
+[2026-04-26T09:23:04.817Z]    🌐 Submitting to IndexNow: https://fredsazy.com/blog/how-vibe-coding-is-reshaping-software-engineering
+[2026-04-26T09:23:05.633Z]    ✅ Success (816ms) via api.indexnow.org/indexnow
+[2026-04-26T09:23:06.167Z]    🌐 Submitting to IndexNow: https://fredsazy.com/blog/devops-gym-the-first-benchmark-that-proves-ai-agents-fail-at-real-infrastructure-tasks
+[2026-04-26T09:23:07.061Z]    ✅ Success (894ms) via api.indexnow.org/indexnow
+[2026-04-26T09:23:07.573Z]    🌐 Submitting to IndexNow: https://fredsazy.com/blog/the-3-600x-efficiency-gap-why-ai-outperforms-humans-at-security-testing-but-fails-at-configuration
+[2026-04-26T09:23:08.299Z]    ✅ Success (726ms) via api.indexnow.org/indexnow
+[2026-04-26T09:23:08.801Z]    🌐 Submitting to IndexNow: https://fredsazy.com/blog/how-hyper-personalized-products-are-killing-mass-market
+[2026-04-26T09:23:09.500Z]    ✅ Success (699ms) via api.indexnow.org/indexnow
+[2026-04-26T09:23:10.004Z]    🌐 Submitting to IndexNow: https://fredsazy.com/blog/lines-of-code-are-back-and-it-s-worse-than-before
+[2026-04-26T09:23:10.887Z]    ✅ Success (883ms) via api.indexnow.org/indexnow
+[2026-04-26T09:23:11.394Z]    🌐 Submitting to IndexNow: https://fredsazy.com/blog/what-i-wish-i-knew-before-starting-my-tech-business-6-hard-lessons
+[2026-04-26T09:23:12.087Z]    ✅ Success (693ms) via api.indexnow.org/indexnow
+[2026-04-26T09:23:12.602Z]    🌐 Submitting to IndexNow: https://fredsazy.com/blog/the-end-of-screen-time-kpi-why-usage-metrics-are-dying-in-ai-applications
+[2026-04-26T09:23:13.417Z]    ✅ Success (815ms) via api.indexnow.org/indexnow
+[2026-04-26T09:23:13.918Z]    🌐 Submitting to IndexNow: https://fredsazy.com/blog/ai-doesn-t-reduce-work-it-intensifies-it-the-hidden-cost-of-agent-assisted-coding
+[2026-04-26T09:23:14.779Z]    ✅ Success (861ms) via api.indexnow.org/indexnow
+[2026-04-26T09:23:15.284Z] 
+📈 Progress: 11/13 (84.6%)
+[2026-04-26T09:23:15.285Z]    ✅ Success: 10 | ❌ Failed: 0
+[2026-04-26T09:23:15.286Z]    🌐 Submitting to IndexNow: https://fredsazy.com/blog/why-70-of-self-built-agentic-ai-projects-will-fail-by-2028
+[2026-04-26T09:23:16.151Z]    ✅ Success (865ms) via api.indexnow.org/indexnow
+[2026-04-26T09:23:16.659Z]    🌐 Submitting to IndexNow: https://fredsazy.com/blog/the-new-architectural-layer-nobody-s-talking-about
+[2026-04-26T09:23:17.399Z]    ✅ Success (740ms) via api.indexnow.org/indexnow
+[2026-04-26T09:23:17.915Z]    🌐 Submitting to IndexNow: https://fredsazy.com/blog/why-your-ai-agent-pipelines-will-fail-without-declarative-dsls
+[2026-04-26T09:23:18.609Z]    ✅ Success (694ms) via api.indexnow.org/indexnow
+[2026-04-26T09:23:18.610Z] 
+============================================================
+[2026-04-26T09:23:18.611Z] 🎉 BULK INDEXING COMPLETED!
+[2026-04-26T09:23:18.611Z] ============================================================
+[2026-04-26T09:23:18.612Z] ⏱️ Total time: 0.3 minutes
+[2026-04-26T09:23:18.612Z] ✅ Successful: 13
+[2026-04-26T09:23:18.613Z] ❌ Failed: 0
+[2026-04-26T09:23:18.613Z] 📊 Total processed: 13
+[2026-04-28T21:30:12.024Z] 🚀 Starting bulk indexing for fredsazy.com...
+[2026-04-28T21:30:12.026Z] 
+🔑 Checking IndexNow key file...
+[2026-04-28T21:30:12.074Z] 
+📡 Fetching all posts from Sanity...
+[2026-04-28T21:32:33.636Z] 🚀 Starting bulk indexing for fredsazy.com...
+[2026-04-28T21:32:33.638Z] 
+🔑 Checking IndexNow key file...
+[2026-04-28T21:32:37.115Z] ✅ Key file accessible: https://fredsazy.com/85978d9336e94e40991c5dc9252f5ddc.txt
+[2026-04-28T21:32:37.125Z] 
+📡 Fetching all posts from Sanity...
+[2026-04-28T21:32:38.442Z] 📝 Found 24 total posts
+[2026-04-28T21:32:38.442Z] 📋 Sample of first 5 posts:
+[2026-04-28T21:32:38.443Z]    1. How to Use AI Without Becoming Dependent on It -> https://fredsazy.com/blog/how-to-use-ai-without-becoming-dependent-on-it
+[2026-04-28T21:32:38.443Z]    2. How to Read Someone Else's Code Without Losing Your Mind -> https://fredsazy.com/blog/how-to-read-someone-else-s-code-without-losing-your-mind
+[2026-04-28T21:32:38.443Z]    3. What a Load Balancer Actually Does (And Doesn't Do) -> https://fredsazy.com/blog/what-a-load-balancer-actually-does-and-doesn-t-do
+[2026-04-28T21:32:38.443Z]    4. How to Read a Stack Trace Without Panicking -> https://fredsazy.com/blog/how-to-read-a-stack-trace-without-panicking
+[2026-04-28T21:32:38.444Z]    5. The Difference Between Authentication and Authorization (With Real Examples) -> https://fredsazy.com/blog/the-difference-between-authentication-and-authorization-with-real-examples
+[2026-04-28T21:32:38.444Z]    🌐 Submitting to IndexNow: https://fredsazy.com/blog/how-to-use-ai-without-becoming-dependent-on-it
+[2026-04-28T21:32:40.684Z]    ✅ Success (2240ms) via api.indexnow.org/indexnow
+[2026-04-28T21:32:41.213Z]    🌐 Submitting to IndexNow: https://fredsazy.com/blog/how-to-read-someone-else-s-code-without-losing-your-mind
+[2026-04-28T21:32:42.367Z]    ✅ Success (1154ms) via api.indexnow.org/indexnow
+[2026-04-28T21:32:42.892Z]    🌐 Submitting to IndexNow: https://fredsazy.com/blog/what-a-load-balancer-actually-does-and-doesn-t-do
+[2026-04-28T21:32:43.613Z]    ✅ Success (721ms) via api.indexnow.org/indexnow
+[2026-04-28T21:32:44.124Z]    🌐 Submitting to IndexNow: https://fredsazy.com/blog/how-to-read-a-stack-trace-without-panicking
+[2026-04-28T21:32:44.878Z]    ✅ Success (754ms) via api.indexnow.org/indexnow
+[2026-04-28T21:32:45.395Z]    🌐 Submitting to IndexNow: https://fredsazy.com/blog/the-difference-between-authentication-and-authorization-with-real-examples
+[2026-04-28T21:32:46.063Z]    ✅ Success (668ms) via api.indexnow.org/indexnow
+[2026-04-28T21:32:46.575Z]    🌐 Submitting to IndexNow: https://fredsazy.com/blog/the-human-in-the-loop-lie-where-you-still-need-actual-people
+[2026-04-28T21:32:47.526Z]    ✅ Success (951ms) via api.indexnow.org/indexnow
+[2026-04-28T21:32:48.030Z]    🌐 Submitting to IndexNow: https://fredsazy.com/blog/the-click-ops-illusion-why-gui-based-infrastructure-is-a-trap
+[2026-04-28T21:32:48.999Z]    ✅ Success (969ms) via api.indexnow.org/indexnow
+[2026-04-28T21:32:49.501Z]    🌐 Submitting to IndexNow: https://fredsazy.com/blog/why-i-m-teaching-my-junior-devs-to-use-ai-and-you-should-too
+[2026-04-28T21:32:50.643Z]    ✅ Success (1142ms) via api.indexnow.org/indexnow
+[2026-04-28T21:32:51.147Z]    🌐 Submitting to IndexNow: https://fredsazy.com/blog/the-gitops-vs-aiops-debate-which-one-actually-saves-time
+[2026-04-28T21:32:52.109Z]    ✅ Success (962ms) via api.indexnow.org/indexnow
+[2026-04-28T21:32:52.613Z]    🌐 Submitting to IndexNow: https://fredsazy.com/blog/why-70-of-self-built-ai-projects-will-fail-by-2028-and-how-to-avoid-it
+[2026-04-28T21:32:53.445Z]    ✅ Success (832ms) via api.indexnow.org/indexnow
+[2026-04-28T21:32:53.959Z] 
+📈 Progress: 11/24 (45.8%)
+[2026-04-28T21:32:53.959Z]    ✅ Success: 10 | ❌ Failed: 0
+[2026-04-28T21:32:53.959Z]    🌐 Submitting to IndexNow: https://fredsazy.com/blog/how-i-fixed-my-duplicate-content-issue-on-google-without-breaking-my-rankings
+[2026-04-28T21:32:54.665Z]    ✅ Success (706ms) via api.indexnow.org/indexnow
+[2026-04-28T21:32:55.180Z]    🌐 Submitting to IndexNow: https://fredsazy.com/blog/agi-isn-t-coming-agentic-ai-is-here-the-difference-changes-everything
+[2026-04-28T21:32:56.135Z]    ✅ Success (955ms) via api.indexnow.org/indexnow
+[2026-04-28T21:32:56.642Z]    🌐 Submitting to IndexNow: https://fredsazy.com/blog/the-self-healing-pipeline-73-of-enterprises-now-use-aiops-to-beat-alert-fatigue
+[2026-04-28T21:32:57.630Z]    ✅ Success (988ms) via api.indexnow.org/indexnow
+[2026-04-28T21:32:58.143Z]    🌐 Submitting to IndexNow: https://fredsazy.com/blog/how-vibe-coding-is-reshaping-software-engineering
+[2026-04-28T21:32:58.878Z]    ✅ Success (735ms) via api.indexnow.org/indexnow
+[2026-04-28T21:32:59.391Z]    🌐 Submitting to IndexNow: https://fredsazy.com/blog/devops-gym-the-first-benchmark-that-proves-ai-agents-fail-at-real-infrastructure-tasks
+[2026-04-28T21:33:00.498Z]    ✅ Success (1107ms) via api.indexnow.org/indexnow
+[2026-04-28T21:33:01.010Z]    🌐 Submitting to IndexNow: https://fredsazy.com/blog/the-3-600x-efficiency-gap-why-ai-outperforms-humans-at-security-testing-but-fails-at-configuration
+[2026-04-28T21:33:01.967Z]    ✅ Success (956ms) via api.indexnow.org/indexnow
+[2026-04-28T21:33:02.474Z]    🌐 Submitting to IndexNow: https://fredsazy.com/blog/how-hyper-personalized-products-are-killing-mass-market
+[2026-04-28T21:33:03.325Z]    ✅ Success (851ms) via api.indexnow.org/indexnow
+[2026-04-28T21:33:03.839Z]    🌐 Submitting to IndexNow: https://fredsazy.com/blog/lines-of-code-are-back-and-it-s-worse-than-before
+[2026-04-28T21:33:04.517Z]    ✅ Success (679ms) via api.indexnow.org/indexnow
+[2026-04-28T21:33:05.026Z]    🌐 Submitting to IndexNow: https://fredsazy.com/blog/what-i-wish-i-knew-before-starting-my-tech-business-6-hard-lessons
+[2026-04-28T21:33:06.471Z]    ✅ Success (1445ms) via api.indexnow.org/indexnow
+[2026-04-28T21:33:06.986Z]    🌐 Submitting to IndexNow: https://fredsazy.com/blog/the-end-of-screen-time-kpi-why-usage-metrics-are-dying-in-ai-applications
+[2026-04-28T21:33:07.670Z]    ✅ Success (684ms) via api.indexnow.org/indexnow
+[2026-04-28T21:33:08.176Z] 
+📈 Progress: 21/24 (87.5%)
+[2026-04-28T21:33:08.177Z]    ✅ Success: 20 | ❌ Failed: 0
+[2026-04-28T21:33:08.177Z]    🌐 Submitting to IndexNow: https://fredsazy.com/blog/ai-doesn-t-reduce-work-it-intensifies-it-the-hidden-cost-of-agent-assisted-coding
+[2026-04-28T21:33:09.087Z]    ✅ Success (910ms) via api.indexnow.org/indexnow
+[2026-04-28T21:33:09.593Z]    🌐 Submitting to IndexNow: https://fredsazy.com/blog/why-70-of-self-built-agentic-ai-projects-will-fail-by-2028
+[2026-04-28T21:33:10.773Z]    ✅ Success (1180ms) via api.indexnow.org/indexnow
+[2026-04-28T21:33:11.279Z]    🌐 Submitting to IndexNow: https://fredsazy.com/blog/the-new-architectural-layer-nobody-s-talking-about
+[2026-04-28T21:33:12.026Z]    ✅ Success (747ms) via api.indexnow.org/indexnow
+[2026-04-28T21:33:12.538Z]    🌐 Submitting to IndexNow: https://fredsazy.com/blog/why-your-ai-agent-pipelines-will-fail-without-declarative-dsls
+[2026-04-28T21:33:13.498Z]    ✅ Success (960ms) via api.indexnow.org/indexnow
+[2026-04-28T21:33:13.499Z] 
+============================================================
+[2026-04-28T21:33:13.499Z] 🎉 BULK INDEXING COMPLETED!
+[2026-04-28T21:33:13.500Z] ============================================================
+[2026-04-28T21:33:13.500Z] ⏱️ Total time: 0.6 minutes
+[2026-04-28T21:33:13.500Z] ✅ Successful: 24
+[2026-04-28T21:33:13.501Z] ❌ Failed: 0
+[2026-04-28T21:33:13.501Z] 📊 Total processed: 24
+[2026-05-12T10:04:17.824Z] 🚀 Starting bulk indexing for fredsazy.com...
+[2026-05-12T10:04:17.826Z] 
+🔑 Checking IndexNow key file...
+[2026-05-12T10:04:28.638Z] 
+📡 Fetching all posts from Sanity...
+[2026-05-12T10:04:30.152Z] 📝 Found 52 total posts
+[2026-05-12T10:04:30.154Z] 📋 Sample of first 5 posts:
+[2026-05-12T10:04:30.154Z]    1. The Beautiful Thing I Love About Google Is You Need It to Rank -> https://fredsazy.com/blog/the-beautiful-thing-i-love-about-google-is-you-need-it-to-rank
+[2026-05-12T10:04:30.155Z]    2. Best 7 Things Content Creators Should Know to Get More Engagement -> https://fredsazy.com/blog/best-7-things-content-creators-should-know-to-get-more-engagement
+[2026-05-12T10:04:30.155Z]    3. 10 Things I Did Before Google Started Indexing My Site Pages -> https://fredsazy.com/blog/10-things-i-did-before-google-started-indexing-my-site-pages
+[2026-05-12T10:04:30.156Z]    4. 10 Practical Ways to Integrate AI into Your Existing Product -> https://fredsazy.com/blog/10-practical-ways-to-integrate-ai-into-your-existing-product
+[2026-05-12T10:04:30.156Z]    5. How to Design APIs That Developers Actually Want to Use -> https://fredsazy.com/blog/how-to-design-apis-that-developers-actually-want-to-use
+[2026-05-12T10:04:30.156Z]    🌐 Submitting to IndexNow: https://fredsazy.com/blog/the-beautiful-thing-i-love-about-google-is-you-need-it-to-rank
+[2026-05-12T10:04:32.727Z]    ✅ Success (2571ms) via api.indexnow.org/indexnow
+[2026-05-12T10:04:33.239Z]    🌐 Submitting to IndexNow: https://fredsazy.com/blog/best-7-things-content-creators-should-know-to-get-more-engagement
+[2026-05-12T10:04:34.139Z]    ✅ Success (900ms) via api.indexnow.org/indexnow
+[2026-05-12T10:04:34.652Z]    🌐 Submitting to IndexNow: https://fredsazy.com/blog/10-things-i-did-before-google-started-indexing-my-site-pages
+[2026-05-12T10:04:35.577Z]    ✅ Success (925ms) via api.indexnow.org/indexnow
+[2026-05-12T10:04:36.081Z]    🌐 Submitting to IndexNow: https://fredsazy.com/blog/10-practical-ways-to-integrate-ai-into-your-existing-product
+[2026-05-12T10:04:37.009Z]    ✅ Success (928ms) via api.indexnow.org/indexnow
+[2026-05-12T10:04:37.522Z]    🌐 Submitting to IndexNow: https://fredsazy.com/blog/how-to-design-apis-that-developers-actually-want-to-use
+[2026-05-12T10:04:38.235Z]    ✅ Success (713ms) via api.indexnow.org/indexnow
+[2026-05-12T10:04:38.749Z]    🌐 Submitting to IndexNow: https://fredsazy.com/blog/how-to-set-up-a-ci-cd-pipeline-from-scratch-with-github-actions
+[2026-05-12T10:04:39.464Z]    ✅ Success (715ms) via api.indexnow.org/indexnow
+[2026-05-12T10:04:39.966Z]    🌐 Submitting to IndexNow: https://fredsazy.com/blog/10-metrics-every-saas-business-must-track-to-stay-profitable
+[2026-05-12T10:04:40.815Z]    ✅ Success (849ms) via api.indexnow.org/indexnow
+[2026-05-12T10:04:41.319Z]    🌐 Submitting to IndexNow: https://fredsazy.com/blog/what-is-agentic-ai-and-why-does-it-matter-for-developers
+[2026-05-12T10:04:42.534Z]    ✅ Success (1215ms) via api.indexnow.org/indexnow
+[2026-05-12T10:04:43.061Z]    🌐 Submitting to IndexNow: https://fredsazy.com/blog/python-vs-go-for-backend-development-a-practical-comparison
+[2026-05-12T10:04:43.904Z]    ✅ Success (843ms) via api.indexnow.org/indexnow
+[2026-05-12T10:04:44.420Z]    🌐 Submitting to IndexNow: https://fredsazy.com/blog/10-devops-best-practices-that-reduce-deployment-failures
+[2026-05-12T10:04:45.290Z]    ✅ Success (870ms) via api.indexnow.org/indexnow
+[2026-05-12T10:04:45.797Z] 
+📈 Progress: 11/52 (21.2%)
+[2026-05-12T10:04:45.797Z]    ✅ Success: 10 | ❌ Failed: 0
+[2026-05-12T10:04:45.797Z]    🌐 Submitting to IndexNow: https://fredsazy.com/blog/how-to-use-ai-to-cut-operational-costs-without-cutting-quality
+[2026-05-12T10:04:46.736Z]    ✅ Success (939ms) via api.indexnow.org/indexnow
+[2026-05-12T10:04:47.245Z]    🌐 Submitting to IndexNow: https://fredsazy.com/blog/7-mistakes-companies-make-when-building-ai-features
+[2026-05-12T10:04:47.902Z]    ✅ Success (657ms) via api.indexnow.org/indexnow
+[2026-05-12T10:04:48.422Z]    🌐 Submitting to IndexNow: https://fredsazy.com/blog/kubernetes-vs-docker-swarm-which-orchestration-tool-should-you-use
+[2026-05-12T10:04:49.098Z]    ✅ Success (677ms) via api.indexnow.org/indexnow
+[2026-05-12T10:04:49.630Z]    🌐 Submitting to IndexNow: https://fredsazy.com/blog/10-clean-code-principles-every-developer-should-follow
+[2026-05-12T10:04:50.342Z]    ✅ Success (712ms) via api.indexnow.org/indexnow
+[2026-05-12T10:04:50.865Z]    🌐 Submitting to IndexNow: https://fredsazy.com/blog/how-to-validate-a-tech-business-idea-before-writing-a-single-line-of-code
+[2026-05-12T10:04:51.574Z]    ✅ Success (709ms) via api.indexnow.org/indexnow
+[2026-05-12T10:04:52.088Z]    🌐 Submitting to IndexNow: https://fredsazy.com/blog/how-to-evaluate-llms-for-your-production-application
+[2026-05-12T10:04:52.748Z]    ✅ Success (660ms) via api.indexnow.org/indexnow
+[2026-05-12T10:04:53.255Z]    🌐 Submitting to IndexNow: https://fredsazy.com/blog/do-i-need-to-know-the-full-commands-in-linux
+[2026-05-12T10:04:54.108Z]    ✅ Success (853ms) via api.indexnow.org/indexnow
+[2026-05-12T10:04:54.625Z]    🌐 Submitting to IndexNow: https://fredsazy.com/blog/things-you-should-do-to-avoid-business-breakdown
+[2026-05-12T10:04:55.368Z]    ✅ Success (743ms) via api.indexnow.org/indexnow
+[2026-05-12T10:04:55.872Z]    🌐 Submitting to IndexNow: https://fredsazy.com/blog/how-to-choose-the-perfect-customers-for-your-business
+[2026-05-12T10:04:56.530Z]    ✅ Success (658ms) via api.indexnow.org/indexnow
+[2026-05-12T10:04:57.045Z]    🌐 Submitting to IndexNow: https://fredsazy.com/blog/reasons-why-many-developers-are-confused-and-stuck-and-how-to-pass-that-phase
+[2026-05-12T10:04:57.715Z]    ✅ Success (670ms) via api.indexnow.org/indexnow
+[2026-05-12T10:04:58.229Z] 
+📈 Progress: 21/52 (40.4%)
+[2026-05-12T10:04:58.230Z]    ✅ Success: 20 | ❌ Failed: 0
+[2026-05-12T10:04:58.230Z]    🌐 Submitting to IndexNow: https://fredsazy.com/blog/why-ai-can-t-think-the-same-output-as-you-and-why-that-s-actually-your-problem
+[2026-05-12T10:04:59.125Z]    ✅ Success (895ms) via api.indexnow.org/indexnow
+[2026-05-12T10:04:59.629Z]    🌐 Submitting to IndexNow: https://fredsazy.com/blog/how-to-prompt-ai-with-professional-techniques-to-get-perfect-results
+[2026-05-12T10:05:00.482Z]    ✅ Success (853ms) via api.indexnow.org/indexnow
+[2026-05-12T10:05:00.996Z]    🌐 Submitting to IndexNow: https://fredsazy.com/blog/too-many-people-ask-this-question-is-devops-really-hard-learn
+[2026-05-12T10:05:01.994Z]    ✅ Success (998ms) via api.indexnow.org/indexnow
+[2026-05-12T10:05:02.506Z]    🌐 Submitting to IndexNow: https://fredsazy.com/blog/the-reasons-why-you-think-ai-is-taking-all-setup
+[2026-05-12T10:05:03.426Z]    ✅ Success (920ms) via api.indexnow.org/indexnow
+[2026-05-12T10:05:03.942Z]    🌐 Submitting to IndexNow: https://fredsazy.com/blog/important-for-developers-to-prioritize-their-mental-health
+[2026-05-12T10:05:04.621Z]    ✅ Success (679ms) via api.indexnow.org/indexnow
+[2026-05-12T10:05:05.137Z]    🌐 Submitting to IndexNow: https://fredsazy.com/blog/why-google-is-the-best-for-rank-than-any-other-engines
+[2026-05-12T10:05:06.075Z]    ✅ Success (937ms) via api.indexnow.org/indexnow
+[2026-05-12T10:05:06.590Z]    🌐 Submitting to IndexNow: https://fredsazy.com/blog/things-you-should-do-to-get-your-site-indexed-quickly
+[2026-05-12T10:05:07.453Z]    ✅ Success (863ms) via api.indexnow.org/indexnow
+[2026-05-12T10:05:07.958Z]    🌐 Submitting to IndexNow: https://fredsazy.com/blog/301-vs-307-why-your-redirect-type-matters-more-than-you-think
+[2026-05-12T10:05:08.575Z]    ✅ Success (617ms) via api.indexnow.org/indexnow
+[2026-05-12T10:05:09.100Z]    🌐 Submitting to IndexNow: https://fredsazy.com/blog/how-to-use-ai-without-becoming-dependent-on-it
+[2026-05-12T10:05:10.222Z]    ✅ Success (1122ms) via api.indexnow.org/indexnow
+[2026-05-12T10:05:10.727Z]    🌐 Submitting to IndexNow: https://fredsazy.com/blog/how-to-read-someone-else-s-code-without-losing-your-mind
+[2026-05-12T10:05:11.619Z]    ✅ Success (892ms) via api.indexnow.org/indexnow
+[2026-05-12T10:05:12.134Z] 
+📈 Progress: 31/52 (59.6%)
+[2026-05-12T10:05:12.135Z]    ✅ Success: 30 | ❌ Failed: 0
+[2026-05-12T10:05:12.136Z]    🌐 Submitting to IndexNow: https://fredsazy.com/blog/what-a-load-balancer-actually-does-and-doesn-t-do
+[2026-05-12T10:05:13.009Z]    ✅ Success (873ms) via api.indexnow.org/indexnow
+[2026-05-12T10:05:13.517Z]    🌐 Submitting to IndexNow: https://fredsazy.com/blog/how-to-read-a-stack-trace-without-panicking
+[2026-05-12T10:05:14.373Z]    ✅ Success (856ms) via api.indexnow.org/indexnow
+[2026-05-12T10:05:14.876Z]    🌐 Submitting to IndexNow: https://fredsazy.com/blog/the-difference-between-authentication-and-authorization-with-real-examples
+[2026-05-12T10:05:15.486Z]    ✅ Success (610ms) via api.indexnow.org/indexnow
+[2026-05-12T10:05:16.010Z]    🌐 Submitting to IndexNow: https://fredsazy.com/blog/the-human-in-the-loop-lie-where-you-still-need-actual-people
+[2026-05-12T10:05:16.699Z]    ✅ Success (688ms) via api.indexnow.org/indexnow
+[2026-05-12T10:05:17.210Z]    🌐 Submitting to IndexNow: https://fredsazy.com/blog/the-click-ops-illusion-why-gui-based-infrastructure-is-a-trap
+[2026-05-12T10:05:18.178Z]    ✅ Success (968ms) via api.indexnow.org/indexnow
+[2026-05-12T10:05:18.686Z]    🌐 Submitting to IndexNow: https://fredsazy.com/blog/why-i-m-teaching-my-junior-devs-to-use-ai-and-you-should-too
+[2026-05-12T10:05:19.535Z]    ✅ Success (849ms) via api.indexnow.org/indexnow
+[2026-05-12T10:05:20.048Z]    🌐 Submitting to IndexNow: https://fredsazy.com/blog/the-gitops-vs-aiops-debate-which-one-actually-saves-time
+[2026-05-12T10:05:20.706Z]    ✅ Success (658ms) via api.indexnow.org/indexnow
+[2026-05-12T10:05:21.229Z]    🌐 Submitting to IndexNow: https://fredsazy.com/blog/why-70-of-self-built-ai-projects-will-fail-by-2028-and-how-to-avoid-it
+[2026-05-12T10:05:21.961Z]    ✅ Success (732ms) via api.indexnow.org/indexnow
+[2026-05-12T10:05:22.464Z]    🌐 Submitting to IndexNow: https://fredsazy.com/blog/how-i-fixed-my-duplicate-content-issue-on-google-without-breaking-my-rankings
+[2026-05-12T10:05:23.194Z]    ✅ Success (730ms) via api.indexnow.org/indexnow
+[2026-05-12T10:05:23.707Z]    🌐 Submitting to IndexNow: https://fredsazy.com/blog/agi-isn-t-coming-agentic-ai-is-here-the-difference-changes-everything
+[2026-05-12T10:05:24.418Z]    ✅ Success (711ms) via api.indexnow.org/indexnow
+[2026-05-12T10:05:24.921Z] 
+📈 Progress: 41/52 (78.8%)
+[2026-05-12T10:05:24.922Z]    ✅ Success: 40 | ❌ Failed: 0
+[2026-05-12T10:05:24.923Z]    🌐 Submitting to IndexNow: https://fredsazy.com/blog/the-self-healing-pipeline-73-of-enterprises-now-use-aiops-to-beat-alert-fatigue
+[2026-05-12T10:05:25.596Z]    ✅ Success (673ms) via api.indexnow.org/indexnow
+[2026-05-12T10:05:26.119Z]    🌐 Submitting to IndexNow: https://fredsazy.com/blog/how-vibe-coding-is-reshaping-software-engineering
+[2026-05-12T10:05:27.006Z]    ✅ Success (887ms) via api.indexnow.org/indexnow
+[2026-05-12T10:05:27.518Z]    🌐 Submitting to IndexNow: https://fredsazy.com/blog/devops-gym-the-first-benchmark-that-proves-ai-agents-fail-at-real-infrastructure-tasks
+[2026-05-12T10:05:28.206Z]    ✅ Success (688ms) via api.indexnow.org/indexnow
+[2026-05-12T10:05:28.718Z]    🌐 Submitting to IndexNow: https://fredsazy.com/blog/the-3-600x-efficiency-gap-why-ai-outperforms-humans-at-security-testing-but-fails-at-configuration
+[2026-05-12T10:05:29.574Z]    ✅ Success (856ms) via api.indexnow.org/indexnow
+[2026-05-12T10:05:30.081Z]    🌐 Submitting to IndexNow: https://fredsazy.com/blog/how-hyper-personalized-products-are-killing-mass-market
+[2026-05-12T10:05:30.768Z]    ✅ Success (687ms) via api.indexnow.org/indexnow
+[2026-05-12T10:05:31.276Z]    🌐 Submitting to IndexNow: https://fredsazy.com/blog/lines-of-code-are-back-and-it-s-worse-than-before
+[2026-05-12T10:05:32.200Z]    ✅ Success (924ms) via api.indexnow.org/indexnow
+[2026-05-12T10:05:32.709Z]    🌐 Submitting to IndexNow: https://fredsazy.com/blog/what-i-wish-i-knew-before-starting-my-tech-business-6-hard-lessons
+[2026-05-12T10:05:33.634Z]    ✅ Success (925ms) via api.indexnow.org/indexnow
+[2026-05-12T10:05:34.140Z]    🌐 Submitting to IndexNow: https://fredsazy.com/blog/the-end-of-screen-time-kpi-why-usage-metrics-are-dying-in-ai-applications
+[2026-05-12T10:05:34.862Z]    ✅ Success (722ms) via api.indexnow.org/indexnow
+[2026-05-12T10:05:35.372Z]    🌐 Submitting to IndexNow: https://fredsazy.com/blog/ai-doesn-t-reduce-work-it-intensifies-it-the-hidden-cost-of-agent-assisted-coding
+[2026-05-12T10:05:36.067Z]    ✅ Success (695ms) via api.indexnow.org/indexnow
+[2026-05-12T10:05:36.570Z]    🌐 Submitting to IndexNow: https://fredsazy.com/blog/why-70-of-self-built-agentic-ai-projects-will-fail-by-2028
+[2026-05-12T10:05:37.526Z]    ✅ Success (956ms) via api.indexnow.org/indexnow
+[2026-05-12T10:05:38.029Z] 
+📈 Progress: 51/52 (98.1%)
+[2026-05-12T10:05:38.030Z]    ✅ Success: 50 | ❌ Failed: 0
+[2026-05-12T10:05:38.030Z]    🌐 Submitting to IndexNow: https://fredsazy.com/blog/the-new-architectural-layer-nobody-s-talking-about
+[2026-05-12T10:05:38.754Z]    ✅ Success (724ms) via api.indexnow.org/indexnow
+[2026-05-12T10:05:39.271Z]    🌐 Submitting to IndexNow: https://fredsazy.com/blog/why-your-ai-agent-pipelines-will-fail-without-declarative-dsls
+[2026-05-12T10:05:39.986Z]    ✅ Success (715ms) via api.indexnow.org/indexnow
+[2026-05-12T10:05:39.987Z] 
+============================================================
+[2026-05-12T10:05:39.988Z] 🎉 BULK INDEXING COMPLETED!
+[2026-05-12T10:05:39.988Z] ============================================================
+[2026-05-12T10:05:39.989Z] ⏱️ Total time: 1.2 minutes
+[2026-05-12T10:05:39.991Z] ✅ Successful: 52
+[2026-05-12T10:05:39.998Z] ❌ Failed: 0
+[2026-05-12T10:05:40.000Z] 📊 Total processed: 52
