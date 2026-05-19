@@ -173,6 +173,9 @@ export default function RootLayout({
   return (
     <html lang="en" className={workSans.variable}>
       <head>
+
+        <meta name="google-adsense-account" content="ca-pub-3588939653643864"></meta>
+        
         {/* Google Analytics */}
         {GA_TRACKING_ID && (
           <>
